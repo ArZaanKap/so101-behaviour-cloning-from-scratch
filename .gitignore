@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Training artifacts
+checkpoints/
+outputs/
+logs/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+
+# Demo / dataset files (large, regenerable via data collection)
+*.hdf5
+*.h5
+data/
+*.log
+
+# Local-only project notes
+PROJECT_PLAN.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
