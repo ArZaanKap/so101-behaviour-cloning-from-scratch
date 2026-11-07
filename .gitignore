@@ -8,6 +8,7 @@ venv/
 env/
 
 # Training artifacts
+data/
 checkpoints/
 outputs/
 logs/
@@ -25,6 +26,7 @@ data/
 
 # Local-only project notes
 PROJECT_PLAN.md
+AGENTS.md
 
 # OS / editor
 .DS_Store
